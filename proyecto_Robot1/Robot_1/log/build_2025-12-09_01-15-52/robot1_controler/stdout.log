@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/robot1_controler/robot1_controler.egg-info
+writing ../../build/robot1_controler/robot1_controler.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot1_controler/robot1_controler.egg-info/dependency_links.txt
+writing entry points to ../../build/robot1_controler/robot1_controler.egg-info/entry_points.txt
+writing requirements to ../../build/robot1_controler/robot1_controler.egg-info/requires.txt
+writing top-level names to ../../build/robot1_controler/robot1_controler.egg-info/top_level.txt
+writing manifest file '../../build/robot1_controler/robot1_controler.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot1_controler/robot1_controler.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot1_controler/robot1_controler.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler
+copying robot1_controler/controller_manager.py -> /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler
+copying robot1_controler/dynamics.py -> /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler
+copying robot1_controler/__init__.py -> /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler
+copying robot1_controler/manipulator_controller.py -> /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler
+copying robot1_controler/hardware_interface.py -> /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler
+copying robot1_controler/kinematics.py -> /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler
+running install
+running install_lib
+creating /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler
+copying /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler/controller_manager.py -> /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler
+copying /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler/dynamics.py -> /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler
+copying /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler/__init__.py -> /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler
+copying /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler/manipulator_controller.py -> /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler
+copying /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler/hardware_interface.py -> /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler
+copying /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler/kinematics.py -> /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler
+byte-compiling /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler/controller_manager.py to controller_manager.cpython-310.pyc
+byte-compiling /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler/dynamics.py to dynamics.cpython-310.pyc
+byte-compiling /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler/manipulator_controller.py to manipulator_controller.cpython-310.pyc
+byte-compiling /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler/hardware_interface.py to hardware_interface.cpython-310.pyc
+byte-compiling /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler/kinematics.py to kinematics.cpython-310.pyc
+running install_data
+creating /home/robousr/Robot_1/install/robot1_controler/share/ament_index/resource_index/packages
+copying resource/robot1_controler -> /home/robousr/Robot_1/install/robot1_controler/share/ament_index/resource_index/packages
+copying package.xml -> /home/robousr/Robot_1/install/robot1_controler/share/robot1_controler
+running install_egg_info
+Copying ../../build/robot1_controler/robot1_controler.egg-info to /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller_manager script to /home/robousr/Robot_1/install/robot1_controler/lib/robot1_controler
+Installing hardware_interface script to /home/robousr/Robot_1/install/robot1_controler/lib/robot1_controler
+Installing manipulator_controller script to /home/robousr/Robot_1/install/robot1_controler/lib/robot1_controler
+writing list of installed files to '/home/robousr/Robot_1/build/robot1_controler/install.log'

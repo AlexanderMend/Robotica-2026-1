@@ -1,0 +1,47 @@
+[1.097s] Invoking command in '/home/robousr/Robot_1/src/robot1_controler': PYTHONPATH=/home/robousr/Robot_1/build/robot1_controler/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot1_controler build --build-base /home/robousr/Robot_1/build/robot1_controler/build install --record /home/robousr/Robot_1/build/robot1_controler/install.log --single-version-externally-managed install_data
+[1.377s] running egg_info
+[1.397s] creating ../../build/robot1_controler/robot1_controler.egg-info
+[1.397s] writing ../../build/robot1_controler/robot1_controler.egg-info/PKG-INFO
+[1.398s] writing dependency_links to ../../build/robot1_controler/robot1_controler.egg-info/dependency_links.txt
+[1.398s] writing entry points to ../../build/robot1_controler/robot1_controler.egg-info/entry_points.txt
+[1.398s] writing requirements to ../../build/robot1_controler/robot1_controler.egg-info/requires.txt
+[1.399s] writing top-level names to ../../build/robot1_controler/robot1_controler.egg-info/top_level.txt
+[1.399s] writing manifest file '../../build/robot1_controler/robot1_controler.egg-info/SOURCES.txt'
+[1.441s] reading manifest file '../../build/robot1_controler/robot1_controler.egg-info/SOURCES.txt'
+[1.442s] writing manifest file '../../build/robot1_controler/robot1_controler.egg-info/SOURCES.txt'
+[1.442s] running build
+[1.442s] running build_py
+[1.443s] creating /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler
+[1.443s] copying robot1_controler/controller_manager.py -> /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler
+[1.443s] copying robot1_controler/dynamics.py -> /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler
+[1.443s] copying robot1_controler/__init__.py -> /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler
+[1.443s] copying robot1_controler/manipulator_controller.py -> /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler
+[1.443s] copying robot1_controler/hardware_interface.py -> /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler
+[1.443s] copying robot1_controler/kinematics.py -> /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler
+[1.444s] running install
+[1.448s] running install_lib
+[1.470s] creating /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler
+[1.470s] copying /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler/controller_manager.py -> /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler
+[1.470s] copying /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler/dynamics.py -> /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler
+[1.470s] copying /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler/__init__.py -> /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler
+[1.470s] copying /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler/manipulator_controller.py -> /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler
+[1.470s] copying /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler/hardware_interface.py -> /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler
+[1.471s] copying /home/robousr/Robot_1/build/robot1_controler/build/lib/robot1_controler/kinematics.py -> /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler
+[1.471s] byte-compiling /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler/controller_manager.py to controller_manager.cpython-310.pyc
+[1.471s] byte-compiling /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler/dynamics.py to dynamics.cpython-310.pyc
+[1.473s] byte-compiling /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler/__init__.py to __init__.cpython-310.pyc
+[1.473s] byte-compiling /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler/manipulator_controller.py to manipulator_controller.cpython-310.pyc
+[1.476s] byte-compiling /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler/hardware_interface.py to hardware_interface.cpython-310.pyc
+[1.476s] byte-compiling /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler/kinematics.py to kinematics.cpython-310.pyc
+[1.478s] running install_data
+[1.479s] creating /home/robousr/Robot_1/install/robot1_controler/share/ament_index/resource_index/packages
+[1.479s] copying resource/robot1_controler -> /home/robousr/Robot_1/install/robot1_controler/share/ament_index/resource_index/packages
+[1.479s] copying package.xml -> /home/robousr/Robot_1/install/robot1_controler/share/robot1_controler
+[1.479s] running install_egg_info
+[1.503s] Copying ../../build/robot1_controler/robot1_controler.egg-info to /home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler-0.0.0-py3.10.egg-info
+[1.503s] running install_scripts
+[1.547s] Installing controller_manager script to /home/robousr/Robot_1/install/robot1_controler/lib/robot1_controler
+[1.547s] Installing hardware_interface script to /home/robousr/Robot_1/install/robot1_controler/lib/robot1_controler
+[1.547s] Installing manipulator_controller script to /home/robousr/Robot_1/install/robot1_controler/lib/robot1_controler
+[1.548s] writing list of installed files to '/home/robousr/Robot_1/build/robot1_controler/install.log'
+[1.571s] Invoked command in '/home/robousr/Robot_1/src/robot1_controler' returned '0': PYTHONPATH=/home/robousr/Robot_1/build/robot1_controler/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robot_1/install/robot1_controler/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot1_controler build --build-base /home/robousr/Robot_1/build/robot1_controler/build install --record /home/robousr/Robot_1/build/robot1_controler/install.log --single-version-externally-managed install_data

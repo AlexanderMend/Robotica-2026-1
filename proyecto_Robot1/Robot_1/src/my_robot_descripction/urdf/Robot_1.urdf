@@ -1,0 +1,72 @@
+<robot name="rrr_robot">
+  <!-- BASE -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.05" radius="0.06"/>
+      </geometry>
+      <material name="Black"><color rgba="0 0 0 1"/></material>
+    </visual>
+  </link>
+
+  <!-- LINK1 -->
+  <link name="shoulder_link">
+    <visual>
+      <origin xyz="0.15 0 0" rpy="0 0 0"/>  <!-- mitad del largo -->
+      <geometry>
+        <box size="0.3 0.03 0.03"/>
+      </geometry>
+      <material name="Rosa"><color rgba="1 0.5 1 1"/></material>
+    </visual>
+  </link>
+
+  <!-- LINK2 -->
+  <link name="arm_link">
+    <visual>
+      <origin xyz="0.15 0 0"/>
+      <geometry>
+        <box size="0.3 0.03 0.03"/>
+      </geometry>
+      <material name="Verde"><color rgba="0.5 1 0 1"/></material>
+    </visual>
+  </link>
+
+  <!-- LINK3 -->
+  <link name="forearm_link">
+    <visual>
+      <origin xyz="0.15 0 0"/>
+      <geometry>
+        <box size="0.3 0.03 0.03"/>
+      </geometry>
+      <material name="Naranja"><color rgba="0.8 0.1 0 1"/></material>
+    </visual>
+  </link>
+
+
+  <!-- JOINTS: Movimiento en plano XY => eje Z -->
+  <joint name="shoulder_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="shoulder_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="3.14"/>
+  </joint>
+
+  <joint name="arm_joint" type="revolute">
+    <parent link="shoulder_link"/>
+    <child link="arm_link"/>
+    <origin xyz="0.3 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="3.14"/>
+  </joint>
+
+  <joint name="forearm_joint" type="revolute">
+    <parent link="arm_link"/>
+    <child link="forearm_link"/>
+    <origin xyz="0.3 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="3.14"/>
+  </joint>
+
+</robot>
