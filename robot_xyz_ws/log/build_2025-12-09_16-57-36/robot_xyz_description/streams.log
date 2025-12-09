@@ -1,0 +1,20 @@
+[1.704s] Invoking command in '/home/robousr/Robotica-2026-1/robot_xyz_ws/src/robot_xyz_description': PYTHONPATH=/home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_xyz_description build --build-base /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_description/build install --record /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_description/install.log --single-version-externally-managed install_data
+[2.072s] running egg_info
+[2.073s] writing ../../build/robot_xyz_description/robot_xyz_description.egg-info/PKG-INFO
+[2.073s] writing dependency_links to ../../build/robot_xyz_description/robot_xyz_description.egg-info/dependency_links.txt
+[2.073s] writing entry points to ../../build/robot_xyz_description/robot_xyz_description.egg-info/entry_points.txt
+[2.073s] writing requirements to ../../build/robot_xyz_description/robot_xyz_description.egg-info/requires.txt
+[2.073s] writing top-level names to ../../build/robot_xyz_description/robot_xyz_description.egg-info/top_level.txt
+[2.076s] reading manifest file '../../build/robot_xyz_description/robot_xyz_description.egg-info/SOURCES.txt'
+[2.077s] writing manifest file '../../build/robot_xyz_description/robot_xyz_description.egg-info/SOURCES.txt'
+[2.077s] running build
+[2.077s] running build_py
+[2.077s] running install
+[2.077s] running install_lib
+[2.079s] running install_data
+[2.079s] running install_egg_info
+[2.081s] removing '/home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_description/lib/python3.10/site-packages/robot_xyz_description-0.0.0-py3.10.egg-info' (and everything under it)
+[2.081s] Copying ../../build/robot_xyz_description/robot_xyz_description.egg-info to /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_description/lib/python3.10/site-packages/robot_xyz_description-0.0.0-py3.10.egg-info
+[2.082s] running install_scripts
+[2.104s] writing list of installed files to '/home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_description/install.log'
+[2.138s] Invoked command in '/home/robousr/Robotica-2026-1/robot_xyz_ws/src/robot_xyz_description' returned '0': PYTHONPATH=/home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_xyz_description build --build-base /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_description/build install --record /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_description/install.log --single-version-externally-managed install_data

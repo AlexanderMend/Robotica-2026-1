@@ -1,0 +1,5 @@
+[console_scripts]
+controller_manager = robot_xyz_control.controller_manager:main
+hardware_interface = robot_xyz_control.hardware_interface:main
+manipulator_controller = robot_xyz_control.manipulator_controller:main
+

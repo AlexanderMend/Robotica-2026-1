@@ -1,0 +1,77 @@
+<robot name="rrr_robot"> 
+  <!--Definición de eslabones--> 
+  <link name = "base_link">
+    <visual>
+      <origin xyz = "0 0 0.025" rpy = "0 0 0"/> 
+      <geometry> 
+        <cylinder length="0.05" radius="0.08"/> 
+      </geometry> 
+      <material name = "Black"> 
+        <color rgba = "0 0 0 1.0"/> 
+      </material> 
+    </visual> 
+  </link> 
+ 
+  <link name = "turret_link"> 
+    <visual> 
+      <origin xyz = "0 0 0.025" rpy = "0 0 0"/> 
+      <geometry> 
+        <box size = "0.06 0.06 0.05"/> 
+      </geometry> 
+      <material name = "Yellow"> 
+        <color rgba = "1 1 0 1.0"/> 
+      </material> 
+    </visual> 
+  </link> 
+
+  <link name = "shoulder_link"> 
+    <visual> 
+      <origin xyz = "0.1 0 0" rpy = "0 0 0"/> 
+      <geometry> 
+        <box size = "0.2 0.03 0.03"/> 
+      </geometry> 
+      <material name = "Cyan"> 
+        <color rgba = "0 1 1 1.0"/> 
+      </material> 
+    </visual> 
+  </link> 
+
+  <link name = "arm_link"> 
+    <visual> 
+      <origin xyz = "0.175 0 0" rpy = "0 0 0"/> 
+      <geometry> 
+        <box size = "0.35 0.03 0.03"/> 
+      </geometry> 
+      <material name = "Magenta"> 
+        <color rgba = "1 0 1 1.0"/> 
+      </material> 
+    </visual> 
+  </link>
+ 
+  <!--Definición de juntas--> 
+  
+  <joint name = "turret_joint" type = "revolute"> 
+    <parent link = "base_link"/> 
+    <child link = "turret_link"/> 
+    <origin xyz = "0 0 0.05" rpy = "0 0 0"/> 
+    <axis xyz = "0 0 1"/> 
+    <limit effort="10.0" lower="-3.14" upper="3.14" velocity="3.14"/>
+  </joint>
+
+  <joint name = "shoulder_joint" type = "revolute"> 
+    <parent link = "turret_link"/> 
+    <child link = "shoulder_link"/> 
+    <origin xyz = "0 0 0.05" rpy = "1.57 0 0"/> 
+    <axis xyz = "0 0 1"/> 
+    <limit effort="10.0" lower="0" upper="1.57" velocity="1.57"/>
+  </joint>
+
+  <joint name = "arm_joint" type = "revolute"> 
+    <parent link = "shoulder_link"/> 
+    <child link = "arm_link"/> 
+    <origin xyz = "0.2 0 0" rpy = "0 0 0"/> 
+    <axis xyz = "0 0 1"/> 
+    <limit effort="10.0" lower="-1.57" upper="1.57" velocity="1.57"/>
+  </joint>
+ 
+</robot>

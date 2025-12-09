@@ -1,0 +1,49 @@
+running egg_info
+creating ../../build/robot_xyz_control/robot_xyz_control.egg-info
+writing ../../build/robot_xyz_control/robot_xyz_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_xyz_control/robot_xyz_control.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_xyz_control/robot_xyz_control.egg-info/entry_points.txt
+writing requirements to ../../build/robot_xyz_control/robot_xyz_control.egg-info/requires.txt
+writing top-level names to ../../build/robot_xyz_control/robot_xyz_control.egg-info/top_level.txt
+writing manifest file '../../build/robot_xyz_control/robot_xyz_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_xyz_control/robot_xyz_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_xyz_control/robot_xyz_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_control/build
+creating /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_control/build/lib
+creating /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_control/build/lib/robot_xyz_control
+copying robot_xyz_control/controller_manager.py -> /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_control/build/lib/robot_xyz_control
+copying robot_xyz_control/dynamics.py -> /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_control/build/lib/robot_xyz_control
+copying robot_xyz_control/__init__.py -> /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_control/build/lib/robot_xyz_control
+copying robot_xyz_control/manipulator_controller.py -> /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_control/build/lib/robot_xyz_control
+copying robot_xyz_control/hardware_interface.py -> /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_control/build/lib/robot_xyz_control
+copying robot_xyz_control/kinematics.py -> /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_control/build/lib/robot_xyz_control
+running install
+running install_lib
+creating /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/python3.10/site-packages/robot_xyz_control
+copying /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_control/build/lib/robot_xyz_control/controller_manager.py -> /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/python3.10/site-packages/robot_xyz_control
+copying /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_control/build/lib/robot_xyz_control/dynamics.py -> /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/python3.10/site-packages/robot_xyz_control
+copying /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_control/build/lib/robot_xyz_control/__init__.py -> /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/python3.10/site-packages/robot_xyz_control
+copying /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_control/build/lib/robot_xyz_control/manipulator_controller.py -> /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/python3.10/site-packages/robot_xyz_control
+copying /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_control/build/lib/robot_xyz_control/hardware_interface.py -> /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/python3.10/site-packages/robot_xyz_control
+copying /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_control/build/lib/robot_xyz_control/kinematics.py -> /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/python3.10/site-packages/robot_xyz_control
+byte-compiling /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/python3.10/site-packages/robot_xyz_control/controller_manager.py to controller_manager.cpython-310.pyc
+byte-compiling /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/python3.10/site-packages/robot_xyz_control/dynamics.py to dynamics.cpython-310.pyc
+byte-compiling /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/python3.10/site-packages/robot_xyz_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/python3.10/site-packages/robot_xyz_control/manipulator_controller.py to manipulator_controller.cpython-310.pyc
+byte-compiling /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/python3.10/site-packages/robot_xyz_control/hardware_interface.py to hardware_interface.cpython-310.pyc
+byte-compiling /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/python3.10/site-packages/robot_xyz_control/kinematics.py to kinematics.cpython-310.pyc
+running install_data
+creating /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/share/ament_index
+creating /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/share/ament_index/resource_index
+creating /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/share/ament_index/resource_index/packages
+copying resource/robot_xyz_control -> /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/share/robot_xyz_control
+running install_egg_info
+Copying ../../build/robot_xyz_control/robot_xyz_control.egg-info to /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/python3.10/site-packages/robot_xyz_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller_manager script to /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/robot_xyz_control
+Installing hardware_interface script to /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/robot_xyz_control
+Installing manipulator_controller script to /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_control/lib/robot_xyz_control
+writing list of installed files to '/home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_control/install.log'

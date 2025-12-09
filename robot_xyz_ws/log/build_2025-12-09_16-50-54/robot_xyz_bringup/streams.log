@@ -1,0 +1,35 @@
+[1.628s] Invoking command in '/home/robousr/Robotica-2026-1/robot_xyz_ws/src/robot_xyz_bringup': PYTHONPATH=/home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_xyz_bringup build --build-base /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_bringup/build install --record /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_bringup/install.log --single-version-externally-managed install_data
+[1.950s] running egg_info
+[1.950s] creating ../../build/robot_xyz_bringup/robot_xyz_bringup.egg-info
+[1.950s] writing ../../build/robot_xyz_bringup/robot_xyz_bringup.egg-info/PKG-INFO
+[1.951s] writing dependency_links to ../../build/robot_xyz_bringup/robot_xyz_bringup.egg-info/dependency_links.txt
+[1.951s] writing entry points to ../../build/robot_xyz_bringup/robot_xyz_bringup.egg-info/entry_points.txt
+[1.951s] writing requirements to ../../build/robot_xyz_bringup/robot_xyz_bringup.egg-info/requires.txt
+[1.951s] writing top-level names to ../../build/robot_xyz_bringup/robot_xyz_bringup.egg-info/top_level.txt
+[1.952s] writing manifest file '../../build/robot_xyz_bringup/robot_xyz_bringup.egg-info/SOURCES.txt'
+[1.954s] reading manifest file '../../build/robot_xyz_bringup/robot_xyz_bringup.egg-info/SOURCES.txt'
+[1.955s] writing manifest file '../../build/robot_xyz_bringup/robot_xyz_bringup.egg-info/SOURCES.txt'
+[1.955s] running build
+[1.955s] running build_py
+[1.955s] creating /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_bringup/build
+[1.956s] creating /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_bringup/build/lib
+[1.956s] creating /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_bringup/build/lib/robot_xyz_bringup
+[1.956s] copying robot_xyz_bringup/__init__.py -> /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_bringup/build/lib/robot_xyz_bringup
+[1.956s] running install
+[1.956s] running install_lib
+[1.957s] creating /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_bringup/lib/python3.10/site-packages/robot_xyz_bringup
+[1.957s] copying /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_bringup/build/lib/robot_xyz_bringup/__init__.py -> /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_bringup/lib/python3.10/site-packages/robot_xyz_bringup
+[1.958s] byte-compiling /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_bringup/lib/python3.10/site-packages/robot_xyz_bringup/__init__.py to __init__.cpython-310.pyc
+[1.958s] running install_data
+[1.959s] creating /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_bringup/share/ament_index
+[1.959s] creating /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_bringup/share/ament_index/resource_index
+[1.959s] creating /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_bringup/share/ament_index/resource_index/packages
+[1.959s] copying resource/robot_xyz_bringup -> /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_bringup/share/ament_index/resource_index/packages
+[1.959s] copying package.xml -> /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_bringup/share/robot_xyz_bringup
+[1.959s] creating /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_bringup/share/robot_xyz_bringup/launch
+[1.959s] copying launch/controller.launch.py -> /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_bringup/share/robot_xyz_bringup/launch
+[1.959s] running install_egg_info
+[1.962s] Copying ../../build/robot_xyz_bringup/robot_xyz_bringup.egg-info to /home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_bringup/lib/python3.10/site-packages/robot_xyz_bringup-0.0.0-py3.10.egg-info
+[1.963s] running install_scripts
+[1.986s] writing list of installed files to '/home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_bringup/install.log'
+[2.034s] Invoked command in '/home/robousr/Robotica-2026-1/robot_xyz_ws/src/robot_xyz_bringup' returned '0': PYTHONPATH=/home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica-2026-1/robot_xyz_ws/install/robot_xyz_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_xyz_bringup build --build-base /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_bringup/build install --record /home/robousr/Robotica-2026-1/robot_xyz_ws/build/robot_xyz_bringup/install.log --single-version-externally-managed install_data
