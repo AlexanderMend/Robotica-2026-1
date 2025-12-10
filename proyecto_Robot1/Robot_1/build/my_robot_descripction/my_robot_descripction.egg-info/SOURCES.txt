@@ -4,6 +4,7 @@ setup.py
 ../../build/my_robot_descripction/my_robot_descripction.egg-info/PKG-INFO
 ../../build/my_robot_descripction/my_robot_descripction.egg-info/SOURCES.txt
 ../../build/my_robot_descripction/my_robot_descripction.egg-info/dependency_links.txt
+../../build/my_robot_descripction/my_robot_descripction.egg-info/entry_points.txt
 ../../build/my_robot_descripction/my_robot_descripction.egg-info/requires.txt
 ../../build/my_robot_descripction/my_robot_descripction.egg-info/top_level.txt
 ../../build/my_robot_descripction/my_robot_descripction.egg-info/zip-safe

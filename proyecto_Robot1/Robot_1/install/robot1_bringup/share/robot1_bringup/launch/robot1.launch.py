@@ -45,10 +45,10 @@ def generate_launch_description():
         output='screen'
     )
 
-    joint_state_publisher_node = Node(
+    """joint_state_publisher_node = Node(
     package='joint_state_publisher',
     executable='joint_state_publisher'
-    )
+    )"""
 
 
     robot_state_publisher_node = Node(
@@ -63,6 +63,5 @@ def generate_launch_description():
         manipulator_controller_node,
         hardware_interface_node,
         rviz_node,
-        joint_state_publisher_node,
         robot_state_publisher_node,
     ])

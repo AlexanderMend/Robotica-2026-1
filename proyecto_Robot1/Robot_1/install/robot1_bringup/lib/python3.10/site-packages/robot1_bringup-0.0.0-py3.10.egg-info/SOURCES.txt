@@ -4,6 +4,7 @@ setup.py
 ../../build/robot1_bringup/robot1_bringup.egg-info/PKG-INFO
 ../../build/robot1_bringup/robot1_bringup.egg-info/SOURCES.txt
 ../../build/robot1_bringup/robot1_bringup.egg-info/dependency_links.txt
+../../build/robot1_bringup/robot1_bringup.egg-info/entry_points.txt
 ../../build/robot1_bringup/robot1_bringup.egg-info/requires.txt
 ../../build/robot1_bringup/robot1_bringup.egg-info/top_level.txt
 ../../build/robot1_bringup/robot1_bringup.egg-info/zip-safe

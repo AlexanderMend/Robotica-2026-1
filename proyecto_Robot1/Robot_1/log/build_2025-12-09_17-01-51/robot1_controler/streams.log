@@ -1,0 +1,23 @@
+[1.547s] Invoking command in '/home/robousr/Robotica-2026-1/proyecto_Robot1/Robot_1/src/robot1_controler': PYTHONPATH=/home/robousr/Robotica-2026-1/proyecto_Robot1/Robot_1/build/robot1_controler/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica-2026-1/proyecto_Robot1/Robot_1/install/robot1_controler/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot1_controler build --build-base /home/robousr/Robotica-2026-1/proyecto_Robot1/Robot_1/build/robot1_controler/build install --record /home/robousr/Robotica-2026-1/proyecto_Robot1/Robot_1/build/robot1_controler/install.log --single-version-externally-managed install_data
+[1.893s] running egg_info
+[1.894s] writing ../../build/robot1_controler/robot1_controler.egg-info/PKG-INFO
+[1.894s] writing dependency_links to ../../build/robot1_controler/robot1_controler.egg-info/dependency_links.txt
+[1.895s] writing entry points to ../../build/robot1_controler/robot1_controler.egg-info/entry_points.txt
+[1.895s] writing requirements to ../../build/robot1_controler/robot1_controler.egg-info/requires.txt
+[1.895s] writing top-level names to ../../build/robot1_controler/robot1_controler.egg-info/top_level.txt
+[1.899s] reading manifest file '../../build/robot1_controler/robot1_controler.egg-info/SOURCES.txt'
+[1.901s] writing manifest file '../../build/robot1_controler/robot1_controler.egg-info/SOURCES.txt'
+[1.901s] running build
+[1.901s] running build_py
+[1.902s] running install
+[1.902s] running install_lib
+[1.905s] running install_data
+[1.905s] running install_egg_info
+[1.908s] removing '/home/robousr/Robotica-2026-1/proyecto_Robot1/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler-0.0.0-py3.10.egg-info' (and everything under it)
+[1.909s] Copying ../../build/robot1_controler/robot1_controler.egg-info to /home/robousr/Robotica-2026-1/proyecto_Robot1/Robot_1/install/robot1_controler/lib/python3.10/site-packages/robot1_controler-0.0.0-py3.10.egg-info
+[1.910s] running install_scripts
+[1.946s] Installing controller_manager script to /home/robousr/Robotica-2026-1/proyecto_Robot1/Robot_1/install/robot1_controler/lib/robot1_controler
+[1.947s] Installing hardware_interface script to /home/robousr/Robotica-2026-1/proyecto_Robot1/Robot_1/install/robot1_controler/lib/robot1_controler
+[1.947s] Installing manipulator_controller script to /home/robousr/Robotica-2026-1/proyecto_Robot1/Robot_1/install/robot1_controler/lib/robot1_controler
+[1.947s] writing list of installed files to '/home/robousr/Robotica-2026-1/proyecto_Robot1/Robot_1/build/robot1_controler/install.log'
+[2.010s] Invoked command in '/home/robousr/Robotica-2026-1/proyecto_Robot1/Robot_1/src/robot1_controler' returned '0': PYTHONPATH=/home/robousr/Robotica-2026-1/proyecto_Robot1/Robot_1/build/robot1_controler/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica-2026-1/proyecto_Robot1/Robot_1/install/robot1_controler/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot1_controler build --build-base /home/robousr/Robotica-2026-1/proyecto_Robot1/Robot_1/build/robot1_controler/build install --record /home/robousr/Robotica-2026-1/proyecto_Robot1/Robot_1/build/robot1_controler/install.log --single-version-externally-managed install_data
